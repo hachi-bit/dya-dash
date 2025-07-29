@@ -172,7 +172,7 @@
 &kp LCTRL                  &kp Z        &kp X     &kp C       &kp V        &kp B        &kp DELETE    &kp N                   &kp M     &kp COMMA  &kp DOT           &lt 12 SLASH
                            &mo 7        &kp LWIN  &lt 11 TAB  &lt 5 LANG2  &lt 6 SPACE  &lt 6 RETURN  &lt 10 INTERNATIONAL_2  &none     &none
 &outbt BT_CLR_CMD OUT_TOG  &out_bt_nxt                                                  &kp UP        &kp ESC                 &kp DOWN  &kp RIGHT
-&mo 9                      &mo 9        &none     &none                                 &mo 9         &mo 9                   &none     &none
+&mo 9                      &mo 9        &none     &none                                 &mo 9         &mo 12                  &none     &none
             >;
         };
 
