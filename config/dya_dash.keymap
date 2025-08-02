@@ -316,7 +316,7 @@
         layer_12 {
             display-name = "TP_Sence";
             bindings = <
-&kp GRAVE       &trans  &kp PG_UP  &kp UP    &kp PG_DN  &trans  &trans     &trans     &trans     &trans     &trans     &trans
+&kp LEFT_ALT    &trans  &kp PG_UP  &kp UP    &kp PG_DN  &trans  &trans     &trans     &trans     &trans     &trans     &trans
 &kp LEFT_SHIFT  &trans  &kp LEFT   &kp DOWN  &kp RIGHT  &trans  &mkp MCLK  &mkp LCLK  &mkp RCLK  &mo 9      &mkp MCLK  &mkp MCLK
 &kp LCTRL       &trans  &trans     &trans    &trans     &trans  &trans     &mkp MCLK  &mkp LCLK  &mkp RCLK  &mo 9      &trans
                 &trans  &trans     &trans    &trans     &mo 9   &mkp MB4   &mkp MB5   &trans     &trans
