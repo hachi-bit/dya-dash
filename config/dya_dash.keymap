@@ -118,6 +118,13 @@
             #binding-cells = <1>;
             bindings = <&macro_param_1to1 &tog_off MACRO_PLACEHOLDER &macro_param_1to1 &mo MACRO_PLACEHOLDER>;
         };
+
+        pass1: pass1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp NUMBER_0 &kp NUMBER_4 &kp NUMBER_2 &kp NUMBER_9>;
+            label = "PASS1";
+        };
     };
 
     combos {
@@ -304,7 +311,7 @@
 
         layer_11 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans         &trans  &trans  &trans  &trans  &trans  &trans
+&pass1  &trans  &trans  &trans  &trans  &trans         &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &kp LG(LS(S))  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans         &trans  &trans  &trans  &trans  &trans  &trans
         &trans  &trans  &trans  &trans  &trans         &trans  &trans  &trans  &trans
