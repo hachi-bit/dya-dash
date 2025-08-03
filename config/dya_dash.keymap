@@ -122,7 +122,7 @@
         pass1: pass1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp NUMBER_0 &kp NUMBER_4 &kp NUMBER_2 &kp NUMBER_9>;
+            bindings = <&kp NUMBER_0 &kp NUMBER_4 &kp NUMBER_2 &kp NUMBER_9 &kp NUMBER_0 &kp NUMBER_4 &kp NUMBER_2 &kp NUMBER_9>;
             label = "PASS1";
         };
     };
