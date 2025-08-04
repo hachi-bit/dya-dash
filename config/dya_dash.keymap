@@ -128,7 +128,7 @@
         pass2: pass2 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp NUMBER_7 &kp NUMBER_1 &kp NUMBER_8 &kp NUMBER_8 &kp NUMBER7 &kp NUMBER_1 &kp NUMBER_8 &kp NUMBER_8>;
+            bindings = <&kp NUMBER_7 &kp NUMBER_1 &kp NUMBER_8 &kp NUMBER_8 &kp NUMBER_7 &kp NUMBER_1 &kp NUMBER_8 &kp NUMBER_8>;
             label = "PASS2";
         };
     };
