@@ -125,6 +125,12 @@
             bindings = <&kp NUMBER_0 &kp NUMBER_4 &kp NUMBER_2 &kp NUMBER_9 &kp NUMBER_0 &kp NUMBER_4 &kp NUMBER_2 &kp NUMBER_9>;
             label = "PASS1";
         };
+        pass2: pass2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp NUMBER_7 &kp NUMBER_1 &kp NUMBER_8 &kp NUMBER_8 &kp NUMBER7 &kp NUMBER_1 &kp NUMBER_8 &kp NUMBER_8>;
+            label = "PASS2";
+        };
     };
 
     combos {
@@ -311,7 +317,7 @@
 
         layer_11 {
             bindings = <
-&pass1  &trans  &trans  &trans  &trans  &trans         &trans  &trans  &trans  &trans  &trans  &trans
+&pass1  &pass2  &trans  &trans  &trans  &trans         &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &kp LG(LS(S))  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans         &trans  &trans  &trans  &trans  &trans  &trans
         &trans  &trans  &trans  &trans  &trans         &trans  &trans  &trans  &trans
