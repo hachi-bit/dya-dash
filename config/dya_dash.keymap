@@ -125,6 +125,7 @@
             bindings = <&kp NUMBER_0 &kp NUMBER_4 &kp NUMBER_2 &kp NUMBER_9 &kp NUMBER_0 &kp NUMBER_4 &kp NUMBER_2 &kp NUMBER_9>;
             label = "PASS1";
         };
+
         pass2: pass2 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -185,7 +186,7 @@
 &kp LCTRL                  &kp Z        &kp X     &kp C       &kp V        &kp B        &kp DELETE    &kp N                   &kp M     &kp COMMA  &kp DOT           &lt 12 SLASH
                            &mo 7        &kp LWIN  &lt 11 TAB  &lt 5 LANG2  &lt 6 SPACE  &lt 6 RETURN  &lt 10 INTERNATIONAL_2  &none     &none
 &outbt BT_CLR_CMD OUT_TOG  &out_bt_nxt                                                  &kp UP        &kp ESC                 &kp DOWN  &kp RIGHT
-&mo 9                      &mo 9        &none     &none                                 &mo 9         &mo 12                  &none     &none
+&mo 9                      &mo 9        &none     &none                                 &mo 9         &mo 9                   &none     &none
             >;
         };
 
@@ -283,12 +284,12 @@
         trackball_layer {
             display-name = "Trackball Pointer";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans     &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &mkp MCLK  &mkp LCLK  &mkp RCLK  &mkp RCLK  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans     &mkp MCLK  &mkp LCLK  &mkp RCLK  &mo 9   &trans
-        &trans  &trans  &trans  &trans  &mo 9   &trans     &trans     &trans     &trans
-&trans  &trans                                  &trans     &trans     &trans     &trans
-&trans  &trans  &trans  &trans                  &trans     &trans     &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &mo 9   &trans
+        &trans  &trans  &trans  &trans  &mo 9   &trans  &trans  &trans     &trans
+&trans  &trans                                  &trans  &trans  &trans     &trans
+&trans  &trans  &trans  &trans                  &trans  &trans  &trans     &trans
             >;
         };
 
