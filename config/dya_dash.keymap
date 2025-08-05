@@ -132,6 +132,13 @@
             bindings = <&kp NUMBER_7 &kp NUMBER_1 &kp NUMBER_8 &kp NUMBER_8 &kp NUMBER_7 &kp NUMBER_1 &kp NUMBER_8 &kp NUMBER_8>;
             label = "PASS2";
         };
+
+        pass3: pass3 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp W &kp S &kp W &kp S &kp W &kp S>;
+            label = "PASS3";
+        };
     };
 
     combos {
