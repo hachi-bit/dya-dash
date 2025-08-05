@@ -139,6 +139,20 @@
             bindings = <&kp W &kp S &kp W &kp S &kp W &kp S>;
             label = "PASS3";
         };
+
+        pass4: pass4 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp W &kp S &kp H &kp Z &kp J &kp W &kp P &kp NUMBER_0 &kp S &kp NUMBER_2>;
+            label = "PASS4";
+        };
+
+        pass5: pass5 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp Q &kp U &kp B &kp E &kp L &kp E &kp Y &kp Q &kp U &kp B &kp E &kp L &kp E &kp Y>;
+            label = "PASS5";
+        };
     };
 
     combos {
@@ -326,8 +340,8 @@
         layer_11 {
             bindings = <
 &pass1  &pass2  &trans  &trans  &trans  &trans         &trans  &trans  &trans  &trans  &trans  &trans
-&pass3  &trans  &trans  &trans  &trans  &kp LG(LS(S))  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans         &trans  &trans  &trans  &trans  &trans  &trans
+&pass3  &pass4  &trans  &trans  &trans  &kp LG(LS(S))  &trans  &trans  &trans  &trans  &trans  &trans
+&pass5  &trans  &trans  &trans  &trans  &trans         &trans  &trans  &trans  &trans  &trans  &trans
         &trans  &trans  &trans  &trans  &trans         &trans  &trans  &trans  &trans
 &trans  &trans                                         &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans                         &trans  &trans  &trans  &trans
