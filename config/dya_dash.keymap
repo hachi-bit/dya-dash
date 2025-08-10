@@ -342,7 +342,7 @@
 &pass1  &pass2  &trans  &trans  &trans  &trans         &trans  &trans  &trans  &trans  &trans  &trans
 &pass3  &pass4  &trans  &trans  &trans  &kp LG(LS(S))  &trans  &trans  &trans  &trans  &trans  &trans
 &pass5  &trans  &trans  &trans  &trans  &trans         &trans  &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans         &trans  &trans  &trans  &trans
+        &trans  &trans  &trans  &trans  &to 13         &trans  &trans  &trans  &trans
 &trans  &trans                                         &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans                         &trans  &trans  &trans  &trans
             >;
@@ -351,24 +351,24 @@
         layer_12 {
             display-name = "TP_Sence";
             bindings = <
-&kp TAB         &trans  &kp PG_UP  &kp UP    &kp PG_DN  &trans  &trans     &trans     &trans     &trans     &trans     &trans
-&kp LEFT_SHIFT  &trans  &kp LEFT   &kp DOWN  &kp RIGHT  &trans  &mkp MCLK  &mkp LCLK  &mkp RCLK  &mo 9      &mkp MCLK  &mkp MCLK
-&kp LCTRL       &trans  &trans     &trans    &trans     &trans  &trans     &mkp MCLK  &mkp LCLK  &mkp RCLK  &mo 9      &trans
+&kp TAB         &trans  &kp PG_UP  &kp UP        &kp PG_DN  &trans  &trans     &trans     &trans     &trans     &trans     &trans
+&kp LEFT_SHIFT  &trans  &kp LEFT   &kp DOWN      &kp RIGHT  &trans  &mkp MCLK  &mkp LCLK  &mkp RCLK  &mo 9      &mkp MCLK  &mkp MCLK
+&kp LCTRL       &trans  &trans     &trans        &trans     &trans  &trans     &mkp MCLK  &mkp LCLK  &mkp RCLK  &mo 9      &trans
                 &trans  &trans     &kp LEFT_ALT  &trans     &mo 9   &mkp MB4   &mkp MB5   &trans     &trans
-&trans          &trans                                          &trans     &trans     &trans     &trans
-&trans          &trans  &trans     &trans                       &trans     &trans     &trans     &trans
+&trans          &trans                                              &trans     &trans     &trans     &trans
+&trans          &trans  &trans     &trans                           &trans     &trans     &trans     &trans
             >;
         };
 
         layer_13 {
             display-name = "Layer 13";
             bindings = <
-&kp TAB         &kp Q   &kp W   &kp E   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT  &kp A   &kp S   &kp D   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp LCTRL       &kp Z   &kp X   &kp C   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-           &trans  &trans  &kp LEFT_ALT  &trans  &kp SPACE  &trans  &trans  &trans  &trans
-&trans     &trans                                  &trans  &trans  &trans  &trans
-&trans     &trans  &trans  &trans                  &trans  &trans  &trans  &trans
+&kp TAB         &kp Q   &kp W   &kp E         &trans  &trans     &trans  &trans  &trans  &trans  &trans  &trans
+&kp LEFT_SHIFT  &kp A   &kp S   &kp D         &trans  &trans     &trans  &trans  &trans  &trans  &trans  &trans
+&kp LCTRL       &kp Z   &kp X   &kp C         &trans  &trans     &trans  &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &kp LEFT_ALT  &trans  &kp SPACE  &trans  &trans  &trans  &trans
+&trans          &trans                                           &trans  &to 0   &trans  &trans
+&trans          &trans  &trans  &trans                           &trans  &trans  &trans  &trans
             >;
         };
     };
