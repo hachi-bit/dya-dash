@@ -359,5 +359,17 @@
 &trans          &trans  &trans     &trans                       &trans     &trans     &trans     &trans
             >;
         };
+
+        layer_13 {
+            display-name = "Layer 13";
+            bindings = <
+&kp TAB         &kp Q   &kp W   &kp E   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp LEFT_SHIFT  &kp A   &kp S   &kp D   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp LCTRL       &kp Z   &kp X   &kp C   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+           &trans  &trans  &kp LEFT_ALT  &trans  &kp SPACE  &trans  &trans  &trans  &trans
+&trans     &trans                                  &trans  &trans  &trans  &trans
+&trans     &trans  &trans  &trans                  &trans  &trans  &trans  &trans
+            >;
+        };
     };
 };
