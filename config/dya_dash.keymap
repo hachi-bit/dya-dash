@@ -342,7 +342,7 @@
 &pass1  &pass2  &trans  &trans  &trans  &trans         &trans  &trans  &trans  &trans  &trans  &trans
 &pass3  &pass4  &trans  &trans  &trans  &kp LG(LS(S))  &trans  &trans  &trans  &trans  &trans  &trans
 &pass5  &trans  &trans  &trans  &trans  &trans         &trans  &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &mo 14  &to 13         &trans  &trans  &trans  &trans
+        &trans  &trans  &trans  &trans  &to 13         &trans  &trans  &trans  &trans
 &trans  &trans                                         &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans                         &trans  &trans  &trans  &trans
             >;
@@ -366,7 +366,7 @@
 &kp TAB         &kp Q   &kp W   &kp E         &trans  &trans     &trans  &trans  &trans  &trans  &trans  &trans
 &kp LEFT_SHIFT  &kp A   &kp S   &kp D         &trans  &trans     &trans  &trans  &trans  &trans  &trans  &trans
 &kp LCTRL       &kp Z   &kp X   &kp C         &trans  &trans     &trans  &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &kp LEFT_ALT  &trans  &kp SPACE  &trans  &trans  &trans  &trans
+                &trans  &trans  &kp LEFT_ALT  &mo 14  &kp SPACE  &trans  &trans  &trans  &trans
 &trans          &trans                                           &trans  &to 0   &trans  &trans
 &trans          &trans  &trans  &trans                           &trans  &trans  &trans  &trans
             >;
