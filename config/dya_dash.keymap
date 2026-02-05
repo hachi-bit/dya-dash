@@ -206,7 +206,7 @@
 &kp LEFT_SHIFT         &kp A        &kp S     &kp D       &kp F        &kp G        &kp H         &kp J                   &kp K     &kp L      &lt 12 SEMICOLON  &kp BACKSPACE
 &kp LCTRL              &kp Z        &kp X     &kp C       &kp V        &kp B        &kp DELETE    &kp N                   &kp M     &kp COMMA  &kp DOT           &lt 12 SLASH
                        &mo 7        &kp LWIN  &lt 11 TAB  &lt 5 LANG2  &lt 6 SPACE  &lt 6 RETURN  &lt 10 INTERNATIONAL_2  &none     &none
-&outbt BT_NXT OUT_TOG  &out_bt_nxt                                                  &kp UP        &kp ESC                 &kp DOWN  &kp RIGHT
+&outbt BT_CLR OUT_TOG  &out_bt_nxt                                                  &kp UP        &kp ESC                 &kp DOWN  &kp RIGHT
 &trans                 &trans       &none     &none                                 &mo 9         &trans                  &none     &none
             >;
         };
@@ -339,12 +339,12 @@
 
         layer_11 {
             bindings = <
-&pass1                 &pass2       &trans  &trans  &trans  &trans         &trans  &trans  &trans  &trans  &trans  &trans
-&pass3                 &pass4       &trans  &trans  &trans  &kp LG(LS(S))  &trans  &trans  &trans  &trans  &trans  &trans
-&pass5                 &trans       &trans  &trans  &trans  &trans         &trans  &trans  &trans  &trans  &trans  &trans
-                       &trans       &trans  &trans  &trans  &to 13         &trans  &trans  &trans  &trans
-&outbt BT_CLR OUT_TOG  &out_bt_nxt                                         &trans  &trans  &trans  &trans
-&trans                 &trans       &trans  &trans                         &trans  &trans  &trans  &trans
+&pass1  &pass2  &trans  &trans  &trans  &trans         &trans  &trans  &trans  &trans  &trans  &trans
+&pass3  &pass4  &trans  &trans  &trans  &kp LG(LS(S))  &trans  &trans  &trans  &trans  &trans  &trans
+&pass5  &trans  &trans  &trans  &trans  &trans         &trans  &trans  &trans  &trans  &trans  &trans
+        &trans  &trans  &trans  &trans  &to 13         &trans  &trans  &trans  &trans
+&trans  &trans                                         &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans                         &trans  &trans  &trans  &trans
             >;
         };
 
