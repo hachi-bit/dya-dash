@@ -202,12 +202,12 @@
             // | touch1  | touch2  | touch3  | touch 4    |                                         | touch1  | touch2  | touch3  | touch 4 |
 
             bindings = <
-&mt LEFT_ALT GRAVE     &kp Q        &kp W     &kp E       &kp R        &kp T        &kp Y         &kp U                   &kp I     &kp O      &kp P             &kp MINUS
-&kp LEFT_SHIFT         &kp A        &kp S     &kp D       &kp F        &kp G        &kp H         &kp J                   &kp K     &kp L      &lt 12 SEMICOLON  &kp BACKSPACE
-&kp LCTRL              &kp Z        &kp X     &kp C       &kp V        &kp B        &kp DELETE    &kp N                   &kp M     &kp COMMA  &kp DOT           &lt 12 SLASH
-                       &mo 7        &kp LWIN  &lt 11 TAB  &lt 5 LANG2  &lt 6 SPACE  &lt 6 RETURN  &lt 10 INTERNATIONAL_2  &none     &none
-&outbt BT_CLR OUT_TOG  &out_bt_nxt                                                  &kp UP        &kp ESC                 &kp DOWN  &kp RIGHT
-&trans                 &trans       &none     &none                                 &mo 9         &trans                  &none     &none
+&mt LEFT_ALT GRAVE         &kp Q        &kp W     &kp E       &kp R        &kp T        &kp Y         &kp U                   &kp I     &kp O      &kp P             &kp MINUS
+&kp LEFT_SHIFT             &kp A        &kp S     &kp D       &kp F        &kp G        &kp H         &kp J                   &kp K     &kp L      &lt 12 SEMICOLON  &kp BACKSPACE
+&kp LCTRL                  &kp Z        &kp X     &kp C       &kp V        &kp B        &kp DELETE    &kp N                   &kp M     &kp COMMA  &kp DOT           &lt 12 SLASH
+                           &mo 7        &kp LWIN  &lt 11 TAB  &lt 5 LANG2  &lt 6 SPACE  &lt 6 RETURN  &lt 10 INTERNATIONAL_2  &none     &none
+&outbt BT_CLR_CMD OUT_TOG  &out_bt_nxt                                                  &kp UP        &kp ESC                 &kp DOWN  &kp RIGHT
+&trans                     &trans       &none     &none                                 &mo 9         &trans                  &none     &none
             >;
         };
 
@@ -269,7 +269,7 @@
             //           |     |     |          |     |          |                           |     |         |         |     |
 
             bindings = <
-&trans  &kp F12  &kp F7  &kp F8  &kp F9  &trans     &trans   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS     &kp TAB
+&trans  &kp F12  &kp F7  &kp F8  &kp F9  &trans     &trans   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans        &kp TAB
 &trans  &kp F11  &kp F4  &kp F5  &kp F6  &trans     &trans   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp DOT       &trans
 &trans  &kp F10  &kp F1  &kp F2  &kp F3  &trans     &trans   &kp DOT       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
         &trans   &trans  &trans  &trans  &kp SPACE  &kp DOT  &kp NUMBER_0  &trans        &trans
@@ -281,12 +281,12 @@
         right_layer {
             display-name = "Right SPACE";
             bindings = <
-&trans  &trans  &kp PG_UP  &kp UP    &kp PG_DN  &trans  &trans  &mmv MOVE_X(100)  &mmv MOVE_UP    &mmv MOVE_Y(100)  &trans  &trans
-&trans  &trans  &kp LEFT   &kp DOWN  &kp RIGHT  &trans  &trans  &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT   &trans  &trans
-&trans  &trans  &trans     &trans    &trans     &trans  &trans  &trans            &trans          &trans            &trans  &trans
-        &trans  &trans     &trans    &trans     &trans  &trans  &trans            &trans          &trans
-&trans  &trans                                          &trans  &trans            &trans          &trans
-&trans  &trans  &trans     &trans                       &none   &none             &trans          &trans
+&trans  &trans  &kp PG_UP  &kp UP    &kp PG_DN  &trans  &trans  &kp PG_UP  &kp UP    &kp PG_DN  &trans  &kp C_AL_LOCK
+&trans  &trans  &kp LEFT   &kp DOWN  &kp RIGHT  &trans  &trans  &kp LEFT   &kp DOWN  &kp RIGHT  &trans  &trans
+&trans  &trans  &trans     &trans    &trans     &trans  &trans  &trans     &trans    &trans     &trans  &trans
+        &trans  &trans     &trans    &trans     &trans  &trans  &trans     &trans    &trans
+&trans  &trans                                          &trans  &trans     &trans    &trans
+&trans  &trans  &trans     &trans                       &none   &none      &trans    &trans
             >;
         };
 
