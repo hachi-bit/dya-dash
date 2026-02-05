@@ -281,12 +281,12 @@
         right_layer {
             display-name = "Right SPACE";
             bindings = <
-&trans  &trans  &kp PG_UP  &kp UP    &kp PG_DN  &trans  &trans  &kp PG_UP  &mmv MOVE_UP  &kp PG_DN  &trans  &kp C_AL_LOCK
-&trans  &trans  &kp LEFT   &kp DOWN  &kp RIGHT  &trans  &trans  &kp LEFT   &kp DOWN      &kp RIGHT  &trans  &trans
-&trans  &trans  &trans     &trans    &trans     &trans  &trans  &trans     &trans        &trans     &trans  &trans
-        &trans  &trans     &trans    &trans     &trans  &trans  &trans     &trans        &trans
-&trans  &trans                                          &trans  &trans     &trans        &trans
-&trans  &trans  &trans     &trans                       &none   &none      &trans        &trans
+&trans  &trans  &kp PG_UP  &kp UP    &kp PG_DN  &trans  &trans  &kp PG_UP       &mmv MOVE_UP    &kp PG_DN        &trans  &kp C_AL_LOCK
+&trans  &trans  &kp LEFT   &kp DOWN  &kp RIGHT  &trans  &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans
+&trans  &trans  &trans     &trans    &trans     &trans  &trans  &trans          &trans          &trans           &trans  &trans
+        &trans  &trans     &trans    &trans     &trans  &trans  &trans          &trans          &trans
+&trans  &trans                                          &trans  &trans          &trans          &trans
+&trans  &trans  &trans     &trans                       &none   &none           &trans          &trans
             >;
         };
 
