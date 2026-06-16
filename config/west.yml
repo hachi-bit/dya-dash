@@ -14,12 +14,14 @@ manifest:
       clone-depth: 1
     - name: zmk-pmw3610-driver
       path: external/zmk-pmw3610-driver
-      clone-depth: 1
+      revision: 274c92bec8a0e98499ceff653b8b9bd6486effbe
     - name: zmk-feature-default-layer
       path: external/zmk-feature-default-layer
+      revision: zmk-v0.3.0.0
       clone-depth: 1
     - name: zmk-driver-animation
       path: external/zmk-driver-animation
+      revision: zmk-v0.3.0.0
       clone-depth: 1
     - name: zmk-driver-ext-power-transient
       path: external/zmk-driver-ext-power-transient
